@@ -51,7 +51,7 @@ See the ***"runexample_haplos.R"*** script for running the example file
 
 - **hapGRM**(haplomatrix, outputType, method='vanRaden1', outname)  
     - **haplomatrix** argument: R-object that specify the haploytpes generated with the 'hapgenomatrix' function above  
-    - **outputType** argument: The output should be a full-matrix [use -'matrix'] or row and column wise [use-'rowcolwise']  
-    - **method** argument: vanRaden (2008) method 1 (ZZ'/sum(2pq)) [use - 'vanRaden1'] or method 2 (ZDZ'/Nsnps) [use - 'vanRaden2']  
+    - **outputType** argument: The output should be a full-matrix ['matrix' option] or row and column wise ['rowcolwise' option]  
+    - **method** argument: vanRaden (2008) method 1 (ZZ'/sum(2pq)) ['vanRaden1' option] or method 2 (ZDZ'/Nsnps) ['vanRaden2' option]  
     - **outname** argument: output name for the grm  
 
